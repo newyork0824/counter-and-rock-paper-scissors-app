@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px gray;
+    padding: 1rem;
+    gap: 3rem;
+  
+  }
+  
+  .main-nav-items {
+    list-style: none;
+    gap: 1rem;
+    position: relative;
+  
+  
+  }
+  
+  .main-nav-items:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px gray;
+    position: absolute;
+    left: -1rem;
+    top: 1em;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 2ms;
+    padding: 1rem;
+  }
+  
+  .dropdown-items {
+    list-style: none;
+    padding: 1em;
+  }
+  
+  .dropdown-items:hover {
+    background-color: red;
+  }
+  
+  
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  .counter-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .counter-header {
+    font-size: 4rem;
+    color: green;
+    text-align: center;
+  }
+  
+  #counter-el {
+    text-align: center;
+    font-size: 4rem;
+    color: green;
+  }
+  
+  #increaseCounter-btn {
+    padding: 1em;
+    width: 15%;
+    background-color: red;
+    align-content: center;
+  
+    text-align: center;
+  }
+  
+  #decreaseCounter-btn {
+    padding: 1em;
+    width: 15%;
+    background-color: red;
+    text-align: center;
+  }
+  
+  .rock-paper-scissors {
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+    align-items: center;
+    font-size:1rem;
+  }
+  
+  #rpsMessege-el {
+    font-size: 3rem;
+  }
+  
+  .rpsPlayArea {
+    display:flex;
+    justify-content: center;
+    font-size:1rem;
+  }
+  
+  #rpsUserMessege-el {
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+  
+  #rpsAiMessege-el {
+    font-size: 3em;
+    margin-left:1rem;
+    color:blue;
+  }
+  
+  button:hover {
+  opacity: 0.8;
+  }
+  
+  #rock-btn {
+    padding: 1em;
+    width: 15%;
+    background-color: red; 
+  }
+  
+  #paper-btn {
+    padding: 1em;
+    width: 15%;
+    background-color: red; 
+  }
+  
+  #scissors-btn {
+    padding: 1em;
+    width: 15%;
+    background-color: red;
+  }
+  
+  .rpsScores{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  #userWinTotal-el {
+    margin-right: 2rem;
+    font-size:3rem;
+    
+  }
+  
+  #aiWinTotal-el {
+    margin-left: 3rem;
+  }
+  
+  
+  
+  .names {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 3rem;
+  }
+  
+  #userNametag {
+    margin-right:1.8rem;
+  }
+  #userWinTotal-el {
+    margin-right: 1rem;
+    
+  }
+  
